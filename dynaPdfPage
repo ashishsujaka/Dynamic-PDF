@@ -1,0 +1,22 @@
+<apex:page standardStylesheets="false" id="pge" renderAs="pdf">
+
+
+<c:dynapdfcomponent type="header" > 
+  <div>My header</div>
+</c:dynapdfcomponent>
+  <c:dynapdfcomponent type="footer">
+<div>Page <span class="pagenumber"/> of <span class="pagecount"/></div>
+
+</c:dynapdfcomponent>
+
+ <div class="content">
+
+<!----------------Your content goes here--------->
+
+
+</div>
+
+
+
+
+</apex:page>
